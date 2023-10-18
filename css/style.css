@@ -12,3 +12,13 @@ img {
     padding: 2rem;
     border: 1px solid red;
 }
+
+#discount {
+    color: red;
+}
+
+#price {
+    font-size: 1.2rem;
+    font-weight: bold;
+    
+}
