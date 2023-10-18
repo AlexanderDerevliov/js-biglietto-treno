@@ -1,0 +1,14 @@
+img {
+    width: 100%;
+    
+}
+
+
+.ms_ticket-container {
+
+    width: 400px;
+    margin: 6rem auto;
+    min-height: 250px;
+    padding: 2rem;
+    border: 1px solid red;
+}
