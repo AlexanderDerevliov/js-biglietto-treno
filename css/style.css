@@ -9,16 +9,17 @@ img {
     width: 400px;
     margin: 6rem auto;
     min-height: 250px;
-    padding: 2rem;
+    padding: 1rem;
     border: 1px solid red;
 }
 
 #discount {
     color: red;
+    font-size: 1.2;
 }
 
 #price {
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     font-weight: bold;
     
 }

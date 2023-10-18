@@ -18,7 +18,7 @@ document.getElementById (`user_age`) .innerHTML = `l'età che hai inserito è: $
 // step 3
 
 
-let ticketPrice = (numKm * 0.21) .toFixed (2) ;
+let ticketPrice = (numKm * 0.21) .toFixed (1) ;
 
 document .getElementById (`totalprice`) .innerHTML = `il prezzo iniziale del tuo biglietto è: ${ticketPrice} euro`;
 
@@ -27,7 +27,7 @@ document .getElementById (`totalprice`) .innerHTML = `il prezzo iniziale del tuo
 
 if (age < 18) {
   
-    ticketPrice = ticketPrice - (ticketPrice / 100 * 20) .toFixed (2) ;
+    ticketPrice = ticketPrice - (ticketPrice / 100 * 20) .toFixed (1) ;
 
     document .getElementById (`discount`) .innerHTML = `Congratulazioni, hai lo sconto riservato agli under 18`;
 
@@ -38,7 +38,7 @@ if (age < 18) {
 
 } else if (age >= 65) {
 
-    ticketPrice = ticketPrice - (ticketPrice / 100 * 40) .toFixed (2) ;
+    ticketPrice = ticketPrice - (ticketPrice / 100 * 40) .toFixed (1) ;
 
     document .getElementById (`discount`) .innerHTML = `Congratulazioni, hai lo sconto riservato agli over 65`;
     
