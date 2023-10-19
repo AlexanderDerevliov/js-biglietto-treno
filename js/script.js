@@ -55,5 +55,5 @@ if (age < 18) {
 
 // messaggio finale con prezzo
 
-document .getElementById (`price`) .innerHTML = `Il prezzo del finale del suo biglietto è: ${ticketPrice} euro`;
+document .getElementById (`price`) .innerHTML = `Il prezzo finale del suo biglietto è: ${ticketPrice} euro`;
 
